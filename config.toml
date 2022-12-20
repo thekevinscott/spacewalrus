@@ -1,0 +1,4 @@
+theme = 'etch'
+contentDir = 'content'
+staticDir= ['static']
+

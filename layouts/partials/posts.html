@@ -1,0 +1,7 @@
+<h1>Space Walrus</h1>
+<ul id="posts">
+{{- range (where site.Pages "Section" "").ByDate }}
+{{ .Render "li" }}
+{{- end }}
+</ul>
+
