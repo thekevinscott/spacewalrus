@@ -1,0 +1,34 @@
+<?php
+get_header();
+?>
+
+<body>
+	<a href="/"><div id="banner"></div></a>
+	<div id="nav">
+		<ul>
+			<li id="today-off" title="Today"><a href="today.html">Today</a></li>
+			<li id="random-off" title="Random"><a href="random.html">Random</a></li>
+			<li id="archive-off" title="Archive"><a href="archive.html">Archive</a></li>
+			<li id="merch-off" title="Merchandise"><a href="merch.html">Merchandise</a></li>
+			<li id="about-off" title="About"><a href="about.html">About</a></li>
+		</ul>
+	</div>
+	<div id="container">
+	<?php if(is_home()) 
+    query_posts("showposts=2"); ?>
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	<?php the_content(__('Read more'));?><div style="clear:both;"></div>
+
+	
+	<?php endwhile; else: ?>
+
+	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
+	<?php posts_nav_link(' &#8212; ', __('&laquo; go back'), __('keep looking &raquo;')); ?><br />
+
+	<h1>Comments</h1>
+	<?php comments_template(); // Get wp-comments.php template ?>
+	   
+	</div>
+</body>
+</html>
+

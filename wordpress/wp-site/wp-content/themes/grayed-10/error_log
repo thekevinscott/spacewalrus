@@ -1,0 +1,8 @@
+[06-Oct-2022 03:55:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/themacro/public_html/spacewalrus/wp-content/themes/grayed-10/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/themacro/public_html/spacewalrus/wp-content/themes/grayed-10/index.php on line 1
+[15-Oct-2022 12:46:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/themacro/public_html/spacewalrus/wp-content/themes/grayed-10/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/themacro/public_html/spacewalrus/wp-content/themes/grayed-10/index.php on line 1

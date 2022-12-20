@@ -1,0 +1,187 @@
+/*
+Theme Name: Space Walrus
+Theme URI: http://spacewalrus.com/
+Description: The Walrus is in space!
+Version: 1.0
+Author: Kevin Scott / Justin Bachorik
+
+Do not fuck with the walrus
+Unless you want the walrus
+to fuck with you
+*/
+
+body, html {
+	text-align: center; /* for IE */
+	margin: 0 auto;		
+	padding:0px;
+	background:#000;
+	height:100%;
+	color: #FFF;
+	font-family: Helvetica, Geneva, sans-serif;
+}
+
+html>body #centercontent { height: auto; min-height: 100%;}
+
+#container {
+	position: relative; 
+	width: 860px; 
+	margin: 20px auto;
+}
+
+#header {
+	width: 860px;
+	margin: 0 auto;
+}
+
+img {
+	border: 0;
+}
+
+#comic {
+	width: 850px;
+	margin: 0 auto;
+	height: 650px;
+}
+
+#footer {
+	width: 430px;
+	margin: 0 auto;
+}
+
+#navleft {
+	width: 100px;
+	float:left;
+	}
+	
+#navright {
+	width: 100px;
+	float:right;
+	}
+	
+
+#nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+body {
+background: black;
+}
+
+#nav {
+width: 860px;
+margin-left:auto;
+margin-right:auto;
+height: 110px;
+}
+
+#nav li {
+list-style: none;
+padding: 0;
+margin: 5px 36px;
+float: left;
+}
+#nav a {
+display: block;
+height: 100px; /* This assumes all your elements are the same height */
+text-indent: -5000px;
+overflow: hidden;
+}
+
+#nav a:hover {
+background-image: none;
+}
+#today-off {
+width: 100px;
+background: transparent url(http://www.spacewalrus.com/pics/today.gif) no-repeat 0 -100px;
+}
+#today-off a {
+background: transparent url(http://www.spacewalrus.com/pics/today.gif)
+no-repeat 0 0;
+}
+
+#random-off {
+width: 100px;
+background: transparent url(http://www.spacewalrus.com/pics/random.gif) no-repeat 0 -100px;
+}
+
+#random-off a {
+background: transparent url(http://www.spacewalrus.com/pics/random.gif)
+no-repeat 0 0;
+}
+
+#archive-off {
+width: 100px;
+background: transparent url(http://www.spacewalrus.com/pics/archive.gif) no-repeat 0 -100px;
+}
+
+#archive-off a {
+background: transparent url(http://www.spacewalrus.com/pics/archive.gif)
+no-repeat 0 0;
+}
+
+#merch-off {
+width: 100px;
+background: transparent url(http://www.spacewalrus.com/pics/merch.gif) no-repeat 0 -100px;
+}
+
+#merch-off a {
+background: transparent url(http://www.spacewalrus.com/pics/merch.gif)
+no-repeat 0 0;
+}
+
+#about-off {
+width: 100px;
+background: transparent url(http://www.spacewalrus.com/pics/about.gif) no-repeat 0 -100px;
+}
+
+#about-off a {
+background: transparent url(http://www.spacewalrus.com/pics/about.gif)
+no-repeat 0 0;
+}
+
+#container {
+width:1037px;
+margin: 0 auto;
+}
+
+#comic {
+margin-left:100px;
+position:absolute;
+width:837px;
+}
+
+#banner {
+width:860px;
+margin: 0 auto;
+background: url(http://www.spacewalrus.com/walrusTitle.jpg);
+height: 138px;
+}
+
+#prevarrow {
+   background: url(http://www.spacewalrus.com/pics/prevarrow.png);
+   width: 100px;
+   height: 450px;
+   float: left;
+   margin-top: -600px;
+}
+
+#nextarrow {
+   background: url(http://www.spacewalrus.com/pics/nextarrow.png);
+   width: 100px;
+   height: 450px;
+   float: right;
+   margin-top: -600px;
+}
+
+
+
+.archivePost img {
+	width: 100px;
+}
+
+archivePost {
+	width: 150px;
+	float: left;
+}

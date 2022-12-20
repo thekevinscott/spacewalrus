@@ -1,0 +1,245 @@
+/*
+Theme Name: idyllic
+Theme URI: http://www.headsetoptions.org/
+Description: A new WordPress template by <a href="http://www.headsetoptions.org">headsetoptions.org</a> and <a href="http://www.mandarinmusing.com" title="Theme Ported to WordPress by MandarinMusing and Headsetoptions">Mandarin Musing</a> based on a design by <a href="http://www.n-vent.com">Ian Smith</a> and released for free under a Creative Commons Attribution 2.5 License.
+Version:
+Author: Headsetoptions
+Author URI: http://www.headsetoptions.org/
+*/
+   
+
+
+
+
+/* general layout and menu styles
+============================= */
+body {
+	background:#fff url(images/bg.jpg) no-repeat top center;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 90%;
+	padding: 0;
+	margin: 0;
+	color: #444;
+	}
+
+#page {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	text-align: left;
+	width: 1000px;
+	}
+
+a img {
+	border: none;
+	}
+
+h1#sitetitle,
+h1#pagetitle,
+h2#pagedesc {
+	position: absolute;
+	color: #fff;
+	text-align: right;
+	width: 480px;
+	margin-left: 220px;
+	font-weight: normal;
+	}
+
+h1#sitetitle {
+	margin-top: 70px;
+	font-size: 3em;
+	}
+
+h1#pagetitle {
+	margin-top: 130px;
+	font-size: 1.4em;
+	margin-bottom: 0;
+	}
+
+h2#pagedesc {
+	font-size: 0.9em;
+	margin-top: 160px;
+	}
+
+#rightcol {
+    position: absolute;
+	margin: 0;
+	padding: 0 0 0 5px;
+	top: 145px;
+	left: 715px;
+	border-left: 1px solid #fff;
+	width: 270px;
+	min-height: 800px;
+	}
+
+#rightcol a:link{
+    color: #000;
+text-decoration:none;
+	}
+
+#rightcol a:hover, #rightcol a:focus {
+    color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+	}
+
+#rightcol a:visited {
+	color: #000;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right;
+	padding-right: 10px;
+	}
+
+#rightcol h2, #rightcol ul, #rightcol li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #000;
+	}
+
+#rightcol h2 {
+    border-bottom: 1px solid #fff;
+	margin: 0 0 5px 0;
+	font-size: 1.3em;
+	}
+
+#rightcol ul {
+    padding-bottom: 10px;
+	}
+
+#rightcol li {
+    padding-left: 5px;
+	}
+
+#content {
+	position: absolute;
+	top: 255px;
+	left: 220px;
+	width: 475px;
+	padding: 0;
+	margin: 0;
+	}
+
+#leftcol {
+	position: absolute;
+	top: 255px;
+	left: 100px;
+	width: 110px;
+    background: url(images/leftside.jpg) no-repeat;
+    
+}
+
+#footer
+{
+width: 100%;
+margin: 0 auto;
+text-align: center;
+clear: both;
+border-top: dotted 1px #E1E1E1;
+margin-top: 1.0em;
+margin-bottom: 1.0em;
+padding-top: 1.0em;
+text-transform: none;
+font-size: 0.85em;
+}
+
+#footer a {
+	color: #555;text-decoration:none;
+	}
+a:link {
+    color: #1a97fd;
+text-decoration:none;
+	}
+a:hover, a:focus {
+	color: #3fdb28;
+	text-decoration: none;
+	}
+a:visited {
+	color: #000;
+	text-decoration: none;
+	}
+
+
+/* content styles
+===================== */
+blockquote {
+	padding: 0 0 0 23px;
+	margin: 10px;
+	color: #666;
+    background-image: url(images/quote.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-style: italic
+}
+
+h1, h2, h3, h4 {
+    margin: 0 0 5px;
+	padding: 0;
+	}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #1a97fd;
+	}
+
+#content h1 {
+    border-bottom: none;
+	}
+
+
+#content h5 {
+    	border-bottom: 1px dashed #1a97fd;
+	font-size: 0.85em;
+	font-weight: normal;
+	}
+
+
+h2 {
+	font-size: 1.2em;
+	color: #009700;
+	}
+
+h3, h4 {
+	font-size: 1em;
+	color: #000;
+	}
+
+p {
+    padding: 0;
+	margin: 0 0 10px;
+}
+
+.imgright {
+    float: right;
+	padding: 0;
+	margin: 0 0 6px 6px;
+	}
+
+.imgleft {
+    float: left;
+	padding: 0;
+	margin: 0 6px 6px ;
+	}
+
+a img{ border:none; }
+
+
+#flickr img {
+	display: block;
+	float: left;
+	padding: 0px;
+	position: relative;
+	height: 55px;
+	width: 55px;
+	border-width:0;
+	margin:2px;
+	}
+
+#commentform textarea 
+        {
+	width:350px;
+}

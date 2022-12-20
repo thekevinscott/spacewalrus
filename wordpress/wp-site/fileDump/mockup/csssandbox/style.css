@@ -1,0 +1,115 @@
+/* style.css - a simple style sheet */
+#nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+body {
+background: black;
+}
+
+#nav {
+width: 860px;
+margin-left:auto;
+margin-right:auto;
+height: 110px;
+}
+
+#nav li {
+list-style: none;
+padding: 0;
+margin: 5 36;
+float: left;
+}
+#nav a {
+display: block;
+height: 100px; /* This assumes all your elements are the same height */
+text-indent: -5000px;
+overflow: hidden;
+}
+
+#nav a:hover {
+background-image: none;
+}
+#today-off {
+width: 100px;
+background: transparent url(pics/today.gif) no-repeat 0 -100px;
+}
+#today-off a {
+background: transparent url(pics/today.gif)
+no-repeat 0 0;
+}
+
+#random-off {
+width: 100px;
+background: transparent url(pics/random.gif) no-repeat 0 -100px;
+}
+
+#random-off a {
+background: transparent url(pics/random.gif)
+no-repeat 0 0;
+}
+
+#archive-off {
+width: 100px;
+background: transparent url(pics/archive.gif) no-repeat 0 -100px;
+}
+
+#archive-off a {
+background: transparent url(pics/archive.gif)
+no-repeat 0 0;
+}
+
+#merch-off {
+width: 100px;
+background: transparent url(pics/merch.gif) no-repeat 0 -100px;
+}
+
+#merch-off a {
+background: transparent url(pics/merch.gif)
+no-repeat 0 0;
+}
+
+#about-off {
+width: 100px;
+background: transparent url(pics/about.gif) no-repeat 0 -100px;
+}
+
+#about-off a {
+background: transparent url(pics/about.gif)
+no-repeat 0 0;
+}
+
+#container {
+width:1037px;
+margin: 0 auto;
+}
+
+#comic {
+width: 837px;
+float: left;
+}
+
+#banner {
+width:860px;
+margin: 0 auto;
+background: url(pics/walrusTitle.jpg);
+height: 138px;
+}
+
+#prevarrow {
+   background: url(pics/prevarrow.png);
+   width: 100px;
+   height: 450px;
+   float: left;
+}
+
+#nextarrow {
+   background: url(pics/nonextarrow.png);
+   width: 100px;
+   height: 450px;
+   float: left;
+}
+
+
