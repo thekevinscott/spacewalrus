@@ -49,7 +49,7 @@ def write_image(row):
     title = row['post_content_title']
     src = row['post_content_src']
     src = f'/comics-hi-res/{src}'
-    return f'[![{title}]({src})]({src})'
+    return f'[![{title}]({src})]({src} "{title}")'
 
 def write_post(row, columns):
     attrs = [write_attr(row, col) for col in columns]
