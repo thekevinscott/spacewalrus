@@ -21,6 +21,9 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
+      - name: Generate posts
+        run: './scripts/generate-all-posts.sh'
+
       - name: Build
         run: hugo --minify
 
