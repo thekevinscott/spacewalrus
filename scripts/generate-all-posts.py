@@ -77,8 +77,11 @@ def write_all_comics():
         write_post(row, df.columns)
 
 def main():
-    shutil.rmtree(POSTS_DIR)
-    os.mkdir(POSTS_DIR)
+    try:
+        shutil.rmtree(POSTS_DIR)
+    except:
+        pass
+    POSTS_DIR.mkdir(parents=True, exist_ok=True)
     write_all_comics()
 
 if __name__ == "__main__":
