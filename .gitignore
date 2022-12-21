@@ -1,7 +1,6 @@
 .DS_Store
 spacewalrus_db.sql
 env
-content
 
 # Generated files by hugo
 /public/

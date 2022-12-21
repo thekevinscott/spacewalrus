@@ -47,8 +47,9 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Generate posts
-        run: './scripts/generate-all-posts.sh'        
+      # Do this manually, locally, so they're in the repo
+      # - name: Generate posts
+      #   run: './scripts/generate-all-posts.sh'        
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
